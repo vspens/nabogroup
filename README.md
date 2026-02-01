@@ -1,9 +1,4 @@
----
-name: Nabo 360 CEO Development Overview
-overview: A high-level, technically grounded development overview for Nabo 360—an integrated platform for association management covering compliance, insurance, executive dashboards, and cross-module data alignment—suitable for direct presentation to a CEO.
-todos: []
-isProject: false
----
+
 
 # Nabo 360 — Development Overview for CEO
 
