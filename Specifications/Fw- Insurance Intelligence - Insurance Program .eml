@@ -1,0 +1,458 @@
+Date: Fri, 25 Apr 2025 17:20:06 -0400
+Subject: Fw: Insurance Intelligence - Insurance Program 
+From: Tyler Hawes <tyler@thenabogroup.com>
+To: Daniel Tekunoff <dan@techresidential.com>
+Message-ID: <BL1PR11MB5956DAD3E42FD8FB7E5CAB3AC7842@BL1PR11MB5956.namprd11.prod.outlook.com>
+Thread-Topic: Insurance Intelligence - Insurance Program 
+Thread-Index: AQHbtLQYZ3QCybMUvECw2bgayKzoFrO05hsb
+References: <C80EB108-141E-48E4-B984-5BF24BAB3D1F@thenabogroup.com>
+Content-Type: multipart/alternative; boundary="B_3828599713_85719313"
+MIME-Version: 1.0
+
+--B_3828599713_85719313
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Another big project I'm looking to do. Time commitment would help=20
+
+From: Tyler Hawes <tyler@thenabogroup.com>
+Sent: Wednesday, April 23, 2025 8:59:13 PM
+To: Peter Greeves <peter@ejfrealestate.com>; Scott Burka <scott.burka@ejfre=
+alestate.com>
+Cc: Matthew Greeves <Matthew@ejfrealestate.com>
+Subject: Insurance Intelligence - Insurance Program=20
+=20
+CONFIDENTIAL
+
+=20
+
+WHILE THINKING THROUGH =E2=80=93 THESE COULD BE PIVOTED TO YOUR COMPLAINCE TEAM=20
+
+=20
+
+I=E2=80=99ve been thinking through the insurance program to set Nabo to a next le=
+vel=E2=80=A6 I used Chat GPT to get my ideas into a scope=E2=80=A6 Let me know what you =
+think here.  I need to take my test=E2=80=A6 But I want to get this in the dev que=
+ue.=20
+
+=20
+
+Here's the fully updated Scope of Work (SOW) for your Airtable-based Insura=
+nce Management System =E2=80=94 now incorporating agent enrollment, AI automation,=
+ state-by-state insurance guidelines, CINC Systems API use, and proactive di=
+scount optimization.
+
+=F0=9F=94=A7 Scope of Work: Nabo Insurance Program (Airtable-Based Platform)
+
+Client: The Nabo Group
+Project Title: Nabo Insurance Intelligence Platform =E2=80=93 Renewals, Bids, Bil=
+ling & AI Insights
+
+=F0=9F=A7=A9 OBJECTIVE
+
+To build an advanced Airtable solution to centralize and automate insurance=
+ management for communities under The Nabo Group, including:
+Renewal tracking
+Proposal collection
+Side-by-side comparisons
+Agent billing
+Board-ready reporting
+AI-driven insights
+Integration with CINC Systems and discount optimization
+=F0=9F=93=A6MODULES TO BUILD
+
+1. Master Tracker =E2=80=93 Community Insurance Table
+
+Tracks all insurance policies across communities.
+
+Fields:
+Community Name (linked)
+State
+Management Tier (naboMAX, naboPLUS, etc.)
+Number of Units
+Insurance Line (Master, D&O, Umbrella, Fidelity, Workers Comp, etc.)
+Carrier / Policy # / Agent
+Renewal Date
+Premium / Deductible / Coverage Limits
+Policy Docs Upload
+Notes / Exclusions
+Loss Runs
+Underwriting Files Upload
+H06 Policies on File (Yes/No) =E2=86=92 Triggers Discount Reminder
+Discount Opportunities (Auto-tagged)
+CINC Association Code (for API use)
+Renewal Status
+Automations:
+Email & text alerts at 120/90/60/30 days
+Trigger rebid if premium =E2=86=9110% or rating drops
+Auto-pull community data from CINC via API if possible (renewal dates, agen=
+t on file, etc.)
+2. Agent Enrollment & CRM
+
+Only approved agents can bid.
+
+Form:
+Name, Company, Contact Info
+State Licensure
+E&O Upload
+Carrier Appointments
+Referral Communities
+Agreement to Fee Terms (5% of premium?) Paid 20% to Tyler / 80% to EJF?... =
+Is that the breakdown?
+Table Fields:
+Enrollment Status (Incomplete, Approved, Restricted)
+Quoting History
+Win Rate
+Payment History
+Scorecard (AI-enhanced)
+Automation:
+Incomplete forms =3D auto-reminder after 5 days
+Can only submit proposals if =E2=80=9CApproved=E2=80=9D
+3. Proposal Submission Table
+
+Each bid is submitted and scored automatically.
+
+Fields:
+Community (linked)
+Agent
+Carrier
+Premium / Deductible / Limits
+Rating (A.M. Best, etc.)
+Exclusions / Notes
+Proposal Document Upload
+Auto-generated AI Score (based on risk-to-value ratio)
+H06 Compatibility Flag (Yes/No)
+Submission Date / Status
+Automation:
+Auto-tag best bid (=E2=80=9CAI Recommended=E2=80=9D) based on configured logic
+Trigger agent billing if marked =E2=80=9CAwarded=E2=80=9D =E2=80=93 Is billing different by a=
+gent agreement? Standardize?
+4. Bid Matrix View & Board Packet Generator
+
+Side-by-side view for proposal comparison.
+
+Features:
+Visual interface for staff
+Export PDF to Board (top 3 bids w/ AI commentary)
+Filter by state or policy type
+Flag exclusions, deductible mismatches, or rating drops
+5. Agent Billing & Payment Collection
+
+Track marketing/admin fee owed by awarded agents.
+
+Fields:
+Agent / Community / Premium
+Commission % (default 5%)
+Invoice Sent / Amount / Payment Link (Stripe or QBO)
+Payment Status
+Late Status Flag
+Automation:
+Invoice creation via Stripe or QuickBooks API
+Email with auto-fill invoice
+Follow-ups at 15/30/45 days unpaid
+6. Insurance Discount Intelligence
+
+Highlight opportunities for better pricing.
+
+Fields & AI Tags:
+Master Policy Discounts =E2=86=92 show if H06s on file
+Roof age, reserve studies, security =E2=86=92 tag opportunities
+Auto-reference CAI-recommended policy lines per state (e.g., AZ requires Fi=
+delity, D&O, WC, etc.)
+Automations:
+If H06 =3D Yes + Umbrella =3D Low =E2=86=92 flag for rebid to add umbrella coverage
+State =3D X =E2=86=92 show CAI minimum insurance expectations
+7. Dashboard & Text Alert System
+
+Real-time oversight + mobile-friendly alerts.
+
+Interfaces:
+Renewal Overview
+Agent Activity Dashboard
+Invoice Tracker
+=E2=80=9CRisk Radar=E2=80=9D =E2=80=93 policies with risks or missing documents
+Text Alerts:
+Send via Twilio or Zapier =E2=86=92 Community Managers and Ops Team
+Use for renewal reminders or agent deadline follow-ups
+=F0=9F=A4=96AI AUTOMATION CAPABILITIES
+
+What AI Can Do:
+Score each proposal based on key data extracted from PDFs (via GPT/API)
+Generate summaries for Boards and internal staff (coverage insights, exclus=
+ions)
+Track trends in premium changes and flag communities needing rebid
+Recommend coverage adjustments (e.g., umbrella policy for a community witho=
+ut one)
+Auto-create a =E2=80=9CBest Value=E2=80=9D recommendation per proposal group
+Generate collections reminders for agents
+What Still Needs Human Input:
+Verifying policy documents when OCR fails
+Managing relationships with agents and Boards
+Overriding AI if recommendations don=E2=80=99t align with client preference
+=F0=9F=94=8CINTEGRATIONS
+
+Required/Recommended:
+CINC Systems API: Pull renewal data, association name, and codes
+Zapier/Make.com: Automations (email, Slack, Stripe)
+Stripe: Payment links for agent fees =E2=80=93 QB Integrated?
+DocuSign/PandaDoc: Enrollment form signature =E2=80=93 Can we use Docusign which =
+we already pay for?
+Twilio or WhatsApp: Text alerts or text alerts from alerts@nabosure.com bas=
+ed off text email=E2=80=A6 2072304922@vtext.com Verizon=20
+=E2=9C=85 DELIVERABLES
+Complete Airtable Base with all linked tables
+All automations & text alerts fully configured
+Stripe or QBO payment link integration
+Board-friendly bid comparison view
+Agent portal and dashboard views
+30-minute walkthrough + Loom video
+Documentation for ongoing maintenance
+
+
+--B_3828599713_85719313
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head><body><div dir=3D"ltr">Another big project I'm looking to do. Time com=
+mitment would help&nbsp;</div><div id=3D"ms-outlook-mobile-body-separator-l=
+ine" dir=3D"ltr"><br></div><div id=3D"ms-outlook-mobile-signature" dir=3D"l=
+tr"></div><hr style=3D"display:inline-block;width:98%" tabindex=3D"-1"><div=
+ id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" style=
+=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Tyler Hawes &lt;tyler@th=
+enabogroup.com&gt;<br><b>Sent:</b> Wednesday, April 23, 2025 8:59:13 PM<br>=
+<b>To:</b> Peter Greeves &lt;peter@ejfrealestate.com&gt;; Scott Burka &lt;s=
+cott.burka@ejfrealestate.com&gt;<br><b>Cc:</b> Matthew Greeves &lt;Matthew@=
+ejfrealestate.com&gt;<br><b>Subject:</b> Insurance Intelligence - Insurance=
+ Program </font><div>&nbsp;</div></div><style>
+<!--
+@font-face
+	{font-family:Wingdings}
+@font-face
+	{font-family:"Cambria Math"}
+@font-face
+	{font-family:Aptos}
+@font-face
+	{font-family:"Apple Color Emoji"}
+p.x_MsoNormal, li.x_MsoNormal, div.x_MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif}
+a:link, span.x_MsoHyperlink
+	{color:#467886;
+	text-decoration:underline}
+span.x_EmailStyle17
+	{font-family:"Aptos",sans-serif;
+	color:windowtext}
+.x_MsoChpDefault
+	{}
+@page WordSection1
+	{margin:1.0in 1.0in 1.0in 1.0in}
+div.x_WordSection1
+	{}
+ol
+	{margin-bottom:0in}
+ul
+	{margin-bottom:0in}
+-->
+</style><div lang=3D"EN-US" link=3D"#467886" vlink=3D"#96607D" style=3D"wor=
+d-wrap:break-word"><div class=3D"x_WordSection1"><p class=3D"x_MsoNormal" a=
+lign=3D"center" style=3D"text-align:center"><b>CONFIDENTIAL</b></p><p class=
+=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><b>&nbsp;</b>=
+</p><p class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><=
+span style=3D"font-size:11.0pt">WHILE THINKING THROUGH =E2=80=93 THESE COUL=
+D BE PIVOTED TO YOUR COMPLAINCE TEAM </span></p><p class=3D"x_MsoNormal">&n=
+bsp;</p><p class=3D"x_MsoNormal">I=E2=80=99ve been thinking through the ins=
+urance program to set Nabo to a next level=E2=80=A6 I used Chat GPT to get =
+my ideas into a scope=E2=80=A6 Let me know what you think here. &nbsp;I nee=
+d to take my test=E2=80=A6 But I want to get this in the dev queue. </p><p =
+class=3D"x_MsoNormal">&nbsp;</p><p class=3D"x_MsoNormal">Here's the fully u=
+pdated <b>Scope of Work (SOW)</b> for your <b>Airtable-based Insurance Mana=
+gement System</b> =E2=80=94 now incorporating agent enrollment, AI automati=
+on, state-by-state insurance guidelines, CINC Systems API use, and proactiv=
+e discount optimization.</p><div class=3D"x_MsoNormal" align=3D"center" sty=
+le=3D"text-align:center"><hr size=3D"0" width=3D"100%" align=3D"center"></d=
+iv><p class=3D"x_MsoNormal"><b><span style=3D"font-family:&quot;Apple Color=
+ Emoji&quot;">&#128295;</span> Scope of Work: Nabo Insurance Program (Airta=
+ble-Based Platform)</b></p><p class=3D"x_MsoNormal"><b>Client:</b> The Nabo=
+ Group<br><b>Project Title:</b> <i>Nabo Insurance Intelligence Platform =E2=
+=80=93 Renewals, Bids, Billing &amp; AI Insights</i></p><div class=3D"x_Mso=
+Normal" align=3D"center" style=3D"text-align:center"><hr size=3D"0" width=
+=3D"100%" align=3D"center"></div><p class=3D"x_MsoNormal"><b><span style=3D=
+"font-family:&quot;Apple Color Emoji&quot;">&#129513;</span> OBJECTIVE</b><=
+/p><p class=3D"x_MsoNormal">To build an advanced Airtable solution to centr=
+alize and automate insurance management for communities under The Nabo Grou=
+p, including:</p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_=
+MsoNormal" style=3D"">Renewal tracking</li><li class=3D"x_MsoNormal" style=
+=3D"">Proposal collection</li><li class=3D"x_MsoNormal" style=3D"">Side-by-=
+side comparisons</li><li class=3D"x_MsoNormal" style=3D"">Agent billing</li=
+><li class=3D"x_MsoNormal" style=3D"">Board-ready reporting</li><li class=
+=3D"x_MsoNormal" style=3D"">AI-driven insights</li><li class=3D"x_MsoNormal=
+" style=3D"">Integration with CINC Systems and discount optimization</li></=
+ul><div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center">=
+<hr size=3D"0" width=3D"100%" align=3D"center"></div><p class=3D"x_MsoNorma=
+l"><b><span style=3D"font-family:&quot;Apple Color Emoji&quot;">&#128230;</=
+span> MODULES TO BUILD</b></p><p class=3D"x_MsoNormal"><b>1. Master Tracker=
+ =E2=80=93 Community Insurance Table</b></p><p class=3D"x_MsoNormal">Tracks=
+ all insurance policies across communities.</p><p class=3D"x_MsoNormal"><b>=
+Fields:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_Ms=
+oNormal" style=3D"">Community Name (linked)</li><li class=3D"x_MsoNormal" s=
+tyle=3D"">State</li><li class=3D"x_MsoNormal" style=3D"">Management Tier (n=
+aboMAX, naboPLUS, etc.)</li><li class=3D"x_MsoNormal" style=3D"">Number of =
+Units</li><li class=3D"x_MsoNormal" style=3D"">Insurance Line (Master, D&am=
+p;O, Umbrella, Fidelity, Workers Comp, etc.)</li><li class=3D"x_MsoNormal" =
+style=3D"">Carrier / Policy # / Agent</li><li class=3D"x_MsoNormal" style=
+=3D"">Renewal Date</li><li class=3D"x_MsoNormal" style=3D"">Premium / Deduc=
+tible / Coverage Limits</li><li class=3D"x_MsoNormal" style=3D"">Policy Doc=
+s Upload</li><li class=3D"x_MsoNormal" style=3D"">Notes / Exclusions</li><l=
+i class=3D"x_MsoNormal" style=3D"">Loss Runs</li><li class=3D"x_MsoNormal" =
+style=3D"">Underwriting Files Upload</li><li class=3D"x_MsoNormal" style=3D=
+"">H06 Policies on File (Yes/No) =E2=86=92 <i>Triggers Discount Reminder</i=
+></li><li class=3D"x_MsoNormal" style=3D"">Discount Opportunities (Auto-tag=
+ged)</li><li class=3D"x_MsoNormal" style=3D"">CINC Association Code (for AP=
+I use)</li><li class=3D"x_MsoNormal" style=3D"">Renewal Status</li></ul><p =
+class=3D"x_MsoNormal"><b>Automations:</b></p><ul type=3D"disc" style=3D"mar=
+gin-top:0in"><li class=3D"x_MsoNormal" style=3D"">Email &amp; text alerts a=
+t 120/90/60/30 days</li><li class=3D"x_MsoNormal" style=3D"">Trigger rebid =
+if premium =E2=86=9110% or rating drops</li><li class=3D"x_MsoNormal" style=
+=3D"">Auto-pull community data from CINC via API if possible (renewal dates=
+, agent on file, etc.)</li></ul><div class=3D"x_MsoNormal" align=3D"center"=
+ style=3D"text-align:center"><hr size=3D"0" width=3D"100%" align=3D"center"=
+></div><p class=3D"x_MsoNormal"><b>2. Agent Enrollment &amp; CRM</b></p><p =
+class=3D"x_MsoNormal">Only approved agents can bid.</p><p class=3D"x_MsoNor=
+mal"><b>Form:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=
+=3D"x_MsoNormal" style=3D"">Name, Company, Contact Info</li><li class=3D"x_=
+MsoNormal" style=3D"">State Licensure</li><li class=3D"x_MsoNormal" style=
+=3D"">E&amp;O Upload</li><li class=3D"x_MsoNormal" style=3D"">Carrier Appoi=
+ntments</li><li class=3D"x_MsoNormal" style=3D"">Referral Communities</li><=
+li class=3D"x_MsoNormal" style=3D"">Agreement to Fee Terms (5% of premium?)=
+ Paid 20% to Tyler / 80% to EJF?... Is that the breakdown?</li></ul><p clas=
+s=3D"x_MsoNormal"><b>Table Fields:</b></p><ul type=3D"disc" style=3D"margin=
+-top:0in"><li class=3D"x_MsoNormal" style=3D"">Enrollment Status (Incomplet=
+e, Approved, Restricted)</li><li class=3D"x_MsoNormal" style=3D"">Quoting H=
+istory</li><li class=3D"x_MsoNormal" style=3D"">Win Rate</li><li class=3D"x=
+_MsoNormal" style=3D"">Payment History</li><li class=3D"x_MsoNormal" style=
+=3D"">Scorecard (AI-enhanced)</li></ul><p class=3D"x_MsoNormal"><b>Automati=
+on:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_MsoNor=
+mal" style=3D"">Incomplete forms =3D auto-reminder after 5 days</li><li cla=
+ss=3D"x_MsoNormal" style=3D"">Can only submit proposals if =E2=80=9CApprove=
+d=E2=80=9D</li></ul><div class=3D"x_MsoNormal" align=3D"center" style=3D"te=
+xt-align:center"><hr size=3D"0" width=3D"100%" align=3D"center"></div><p cl=
+ass=3D"x_MsoNormal"><b>3. Proposal Submission Table</b></p><p class=3D"x_Ms=
+oNormal">Each bid is submitted and scored automatically.</p><p class=3D"x_M=
+soNormal"><b>Fields:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li =
+class=3D"x_MsoNormal" style=3D"">Community (linked)</li><li class=3D"x_MsoN=
+ormal" style=3D"">Agent</li><li class=3D"x_MsoNormal" style=3D"">Carrier</l=
+i><li class=3D"x_MsoNormal" style=3D"">Premium / Deductible / Limits</li><l=
+i class=3D"x_MsoNormal" style=3D"">Rating (A.M. Best, etc.)</li><li class=
+=3D"x_MsoNormal" style=3D"">Exclusions / Notes</li><li class=3D"x_MsoNormal=
+" style=3D"">Proposal Document Upload</li><li class=3D"x_MsoNormal" style=
+=3D"">Auto-generated AI Score (based on risk-to-value ratio)</li><li class=
+=3D"x_MsoNormal" style=3D"">H06 Compatibility Flag (Yes/No)</li><li class=
+=3D"x_MsoNormal" style=3D"">Submission Date / Status</li></ul><p class=3D"x=
+_MsoNormal"><b>Automation:</b></p><ul type=3D"disc" style=3D"margin-top:0in=
+"><li class=3D"x_MsoNormal" style=3D"">Auto-tag best bid (=E2=80=9CAI Recom=
+mended=E2=80=9D) based on configured logic</li><li class=3D"x_MsoNormal" st=
+yle=3D"">Trigger agent billing if marked =E2=80=9CAwarded=E2=80=9D =E2=80=
+=93 Is billing different by agent agreement? Standardize?</li></ul><div cla=
+ss=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><hr size=3D=
+"0" width=3D"100%" align=3D"center"></div><p class=3D"x_MsoNormal"><b>4. Bi=
+d Matrix View &amp; Board Packet Generator</b></p><p class=3D"x_MsoNormal">=
+Side-by-side view for proposal comparison.</p><p class=3D"x_MsoNormal"><b>F=
+eatures:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_M=
+soNormal" style=3D"">Visual interface for staff</li><li class=3D"x_MsoNorma=
+l" style=3D"">Export PDF to Board (top 3 bids w/ AI commentary)</li><li cla=
+ss=3D"x_MsoNormal" style=3D"">Filter by state or policy type</li><li class=
+=3D"x_MsoNormal" style=3D"">Flag exclusions, deductible mismatches, or rati=
+ng drops</li></ul><div class=3D"x_MsoNormal" align=3D"center" style=3D"text=
+-align:center"><hr size=3D"0" width=3D"100%" align=3D"center"></div><p clas=
+s=3D"x_MsoNormal"><b>5. Agent Billing &amp; Payment Collection</b></p><p cl=
+ass=3D"x_MsoNormal">Track marketing/admin fee owed by awarded agents.</p><p=
+ class=3D"x_MsoNormal"><b>Fields:</b></p><ul type=3D"disc" style=3D"margin-=
+top:0in"><li class=3D"x_MsoNormal" style=3D"">Agent / Community / Premium</=
+li><li class=3D"x_MsoNormal" style=3D"">Commission % (default 5%)</li><li c=
+lass=3D"x_MsoNormal" style=3D"">Invoice Sent / Amount / Payment Link (Strip=
+e or QBO)</li><li class=3D"x_MsoNormal" style=3D"">Payment Status</li><li c=
+lass=3D"x_MsoNormal" style=3D"">Late Status Flag</li></ul><p class=3D"x_Mso=
+Normal"><b>Automation:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><l=
+i class=3D"x_MsoNormal" style=3D"">Invoice creation via Stripe or QuickBook=
+s API</li><li class=3D"x_MsoNormal" style=3D"">Email with auto-fill invoice=
+</li><li class=3D"x_MsoNormal" style=3D"">Follow-ups at 15/30/45 days unpai=
+d</li></ul><div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:=
+center"><hr size=3D"0" width=3D"100%" align=3D"center"></div><p class=3D"x_=
+MsoNormal"><b>6. Insurance Discount Intelligence</b></p><p class=3D"x_MsoNo=
+rmal">Highlight opportunities for better pricing.</p><p class=3D"x_MsoNorma=
+l"><b>Fields &amp; AI Tags:</b></p><ul type=3D"disc" style=3D"margin-top:0i=
+n"><li class=3D"x_MsoNormal" style=3D"">Master Policy Discounts =E2=86=92 s=
+how if H06s on file</li><li class=3D"x_MsoNormal" style=3D"">Roof age, rese=
+rve studies, security =E2=86=92 tag opportunities</li><li class=3D"x_MsoNor=
+mal" style=3D"">Auto-reference CAI-recommended policy lines per state (e.g.=
+, AZ requires Fidelity, D&amp;O, WC, etc.)</li></ul><p class=3D"x_MsoNormal=
+"><b>Automations:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li cla=
+ss=3D"x_MsoNormal" style=3D"">If H06 =3D Yes + Umbrella =3D Low =E2=86=92 f=
+lag for rebid to add umbrella coverage</li><li class=3D"x_MsoNormal" style=
+=3D"">State =3D X =E2=86=92 show CAI minimum insurance expectations</li></u=
+l><div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><=
+hr size=3D"0" width=3D"100%" align=3D"center"></div><p class=3D"x_MsoNormal=
+"><b>7. Dashboard &amp; Text Alert System</b></p><p class=3D"x_MsoNormal">R=
+eal-time oversight + mobile-friendly alerts.</p><p class=3D"x_MsoNormal"><b=
+>Interfaces:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D=
+"x_MsoNormal" style=3D"">Renewal Overview</li><li class=3D"x_MsoNormal" sty=
+le=3D"">Agent Activity Dashboard</li><li class=3D"x_MsoNormal" style=3D"">I=
+nvoice Tracker</li><li class=3D"x_MsoNormal" style=3D"">=E2=80=9CRisk Radar=
+=E2=80=9D =E2=80=93 policies with risks or missing documents</li></ul><p cl=
+ass=3D"x_MsoNormal"><b>Text Alerts:</b></p><ul type=3D"disc" style=3D"margi=
+n-top:0in"><li class=3D"x_MsoNormal" style=3D"">Send via Twilio or Zapier =
+=E2=86=92 Community Managers and Ops Team</li><li class=3D"x_MsoNormal" sty=
+le=3D"">Use for renewal reminders or agent deadline follow-ups</li></ul><di=
+v class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><hr si=
+ze=3D"0" width=3D"100%" align=3D"center"></div><p class=3D"x_MsoNormal"><b>=
+<span style=3D"font-family:&quot;Apple Color Emoji&quot;">&#129302;</span> =
+AI AUTOMATION CAPABILITIES</b></p><p class=3D"x_MsoNormal"><b>What AI Can D=
+o:</b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_MsoNorm=
+al" style=3D"">Score each proposal based on key data extracted from PDFs (v=
+ia GPT/API)</li><li class=3D"x_MsoNormal" style=3D"">Generate summaries for=
+ Boards and internal staff (coverage insights, exclusions)</li><li class=3D=
+"x_MsoNormal" style=3D"">Track trends in premium changes and flag communiti=
+es needing rebid</li><li class=3D"x_MsoNormal" style=3D"">Recommend coverag=
+e adjustments (e.g., umbrella policy for a community without one)</li><li c=
+lass=3D"x_MsoNormal" style=3D"">Auto-create a =E2=80=9CBest Value=E2=80=9D =
+recommendation per proposal group</li><li class=3D"x_MsoNormal" style=3D"">=
+Generate collections reminders for agents</li></ul><p class=3D"x_MsoNormal"=
+><b>What Still Needs Human Input:</b></p><ul type=3D"disc" style=3D"margin-=
+top:0in"><li class=3D"x_MsoNormal" style=3D"">Verifying policy documents wh=
+en OCR fails</li><li class=3D"x_MsoNormal" style=3D"">Managing relationship=
+s with agents and Boards</li><li class=3D"x_MsoNormal" style=3D"">Overridin=
+g AI if recommendations don=E2=80=99t align with client preference</li></ul=
+><div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:center"><h=
+r size=3D"0" width=3D"100%" align=3D"center"></div><p class=3D"x_MsoNormal"=
+><b><span style=3D"font-family:&quot;Apple Color Emoji&quot;">&#128268;</sp=
+an> INTEGRATIONS</b></p><p class=3D"x_MsoNormal"><b>Required/Recommended:</=
+b></p><ul type=3D"disc" style=3D"margin-top:0in"><li class=3D"x_MsoNormal" =
+style=3D""><b>CINC Systems API</b>: Pull renewal data, association name, an=
+d codes</li><li class=3D"x_MsoNormal" style=3D""><b>Zapier/Make.com</b>: Au=
+tomations (email, Slack, Stripe)</li><li class=3D"x_MsoNormal" style=3D""><=
+b>Stripe</b>: Payment links for agent fees =E2=80=93 QB Integrated?</li><li=
+ class=3D"x_MsoNormal" style=3D""><b>DocuSign/PandaDoc</b>: Enrollment form=
+ signature =E2=80=93 Can we use Docusign which we already pay for?</li><li =
+class=3D"x_MsoNormal" style=3D""><b>Twilio or WhatsApp</b>: Text alerts or =
+text alerts from <a href=3D"mailto:alerts@nabosure.com">alerts@nabosure.com=
+</a> based off text email=E2=80=A6 <a href=3D"mailto:2072304922@vtext.com">=
+2072304922@vtext.com</a> Verizon </li></ul><div class=3D"x_MsoNormal" align=
+=3D"center" style=3D"text-align:center"><hr size=3D"0" width=3D"100%" align=
+=3D"center"></div><p class=3D"x_MsoNormal"><b><span style=3D"font-family:&q=
+uot;Apple Color Emoji&quot;">=E2=9C=85</span> DELIVERABLES</b></p><ul type=
+=3D"disc" style=3D"margin-top:0in"><li class=3D"x_MsoNormal" style=3D"">Com=
+plete Airtable Base with all linked tables</li><li class=3D"x_MsoNormal" st=
+yle=3D"">All automations &amp; text alerts fully configured</li><li class=
+=3D"x_MsoNormal" style=3D"">Stripe or QBO payment link integration</li><li =
+class=3D"x_MsoNormal" style=3D"">Board-friendly bid comparison view</li><li=
+ class=3D"x_MsoNormal" style=3D"">Agent portal and dashboard views</li><li =
+class=3D"x_MsoNormal" style=3D"">30-minute walkthrough + Loom video</li><li=
+ class=3D"x_MsoNormal" style=3D"">Documentation for ongoing maintenance</li=
+></ul><div class=3D"x_MsoNormal" align=3D"center" style=3D"text-align:cente=
+r"><hr size=3D"0" width=3D"100%" align=3D"center"></div></div></div></body>=
+</html>
+
+--B_3828599713_85719313--

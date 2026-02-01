@@ -1,0 +1,80 @@
+Nabo 360 — Master Match Matrix
+________________________________________
+I. Purpose of the Match Matrix
+The Match Matrix interlinks all data objects and modules across the system by Community ID, Corporate ID, Unit ID, and Vendor ID. It ensures that Accounting, Compliance, Insurance, Contracts, Board Reporting, and Maintenance are always aligned.
+________________________________________
+II. Universal IDs (Every Object Ties Back To:)
+Universal ID	Used For	Ties To
+Community ID	Unique to each association or property	Accounting, Compliance, Contracts, Insurance, Maintenance, Resale, Reporting
+Corporate ID	Unique to your management company's legal entity in each state	State Filings, Registered Agent Tracking, Annual Reports
+Unit ID	Unique to each lot/condo/unit in each Community	Owner Ledger, Violations, Maintenance, Resale Docs
+Vendor ID	Unique to each Vendor/Service Provider	AP Payments, COI Tracking, Maintenance Work Orders
+________________________________________
+III. Match Matrix Overview (Cross-Module Matching)
+Data Element	Module 1	Module 2	Module 3	Module 4	Module 5	Notes
+Community ID	Accounting	Compliance	Insurance	Contracts	Maintenance	Primary anchor key
+Bank Accounts	Accounting	Compliance	-	-	-	Needed for payment accuracy and compliance reports
+Reserve Accounts	Accounting	Compliance	Board Reporting	-	-	Tied to reserve studies and bank reconciliations
+Registered Agent Data	Compliance	Acquisition Compliance	-	-	-	Needed post-close
+Manager License Data	Compliance	HR/Internal	Contracts	-	-	Ensures licensed management on agreements
+GL Codes	Accounting	Budgeting	Board Reporting	-	-	Variance and Financial Summaries
+Vendor COIs	Compliance	AP (Accounting)	Maintenance	-	-	Tied to vendor approvals and payment
+Vendor Contracts	Contracts	Accounting	Maintenance	Compliance	-	Binds services, fees, renewal dates
+Owner Ledger	Accounting	Compliance	Resale/Transfer	-	-	Balance needed for resale certs and collections
+Invoice Data	Accounting (AP)	Compliance (W-9)	Maintenance (Work Orders)	-	-	Matching invoice to contract and GL
+Insurance Policies	Insurance	Accounting (AP)	Compliance (Permits)	Contracts	Risk Management	For budgeting, payments, renewals
+Violations/Compliance Issues	Compliance (Violations)	Accounting (Fine AR)	Resale (Disclosure)	Maintenance (Cure Orders)	-	Flag impacts financials and disclosures
+Board Roster	Compliance	Board Communications	Insurance	Contracts	-	Needed for signature authorities
+Meeting Minutes	Compliance	Resale/Transfer	-	-	-	Legal documents for disclosures
+Architectural Changes	Compliance (ARC)	Resale (Disclosure)	Maintenance (Project Management)	-	-	Permanent record needed across departments
+________________________________________
+IV. Key Examples of How Matching Works In Real Life
+1. Vendor Work Order to Invoice to Payment
+•	Vendor performs service (Maintenance Module).
+•	Invoice generated and matched to Work Order ID (AP Module).
+•	COI check at payment (Compliance Module).
+•	Payment posted (Accounting Module).
+2. Insurance Renewal
+•	Master Insurance Policy expiration triggers alert (Insurance Module).
+•	Payment for renewal posted to AP (Accounting Module).
+•	Updated certificate stored (Compliance Module).
+•	Reserve cash position checked to cover payment (Board Reporting).
+3. Management Company Change Post-Acquisition
+•	New Management Certificate filing triggered (Compliance Module).
+•	Registered Agent updated (Compliance Module).
+•	Vendor payment approvals rerouted to new management (Accounting Module).
+4. Owner Sells Unit
+•	Unit Ledger pulls final balance (Accounting Module).
+•	Architectural Approvals verified (Compliance Module).
+•	Resale disclosure auto-generated (Resale Module).
+•	Move-out fees billed automatically (Accounting/Resale).
+________________________________________
+V. Trigger Points (When Modules Push Data to Each Other)
+Trigger Event	Push To Modules
+Bank Account Changes	Accounting, Compliance
+Management Change	Compliance, Contracts, Board Reporting
+New Vendor Approved	Maintenance, Accounting
+Invoice Processed	Accounting, Compliance (W-9 Confirmed)
+Insurance Policy Bound	Insurance, Accounting, Board Reporting
+CD Expiration	Accounting, Board Reporting
+Annual Meeting Scheduled	Compliance, Board Communications
+Owner Transfer Processed	Accounting, Compliance, Resale
+License Renewal Due	Compliance, HR
+________________________________________
+VI. Architecture Design Recommendation (for Dev Team)
+•	PostgreSQL database recommended (strong relational cross-linking needed).
+•	AI/ML Layer ties into meta-triggers ("If X happens in Compliance, launch Y in Accounting").
+•	API-driven Connectors to:
+o	CINC
+o	Vantaca
+o	Stripe/QuickBooks
+o	Utility Vendors
+o	Resale Platforms (HomewiseDocs, etc.)
+•	UI/UX
+o	Dashboard per Community ID (with drill-downs to modules).
+o	Flag Center (show all critical upcoming compliance/accounting events).
+o	Full Audit Trail (who approved, posted, corrected, edited, etc.)
+________________________________________
+Final Deliverable
+Nabo 360's Master Match Matrix ensures all your core operational areas work seamlessly together, proactively preventing mistakes, saving labor, and enhancing Board/member experience.
+

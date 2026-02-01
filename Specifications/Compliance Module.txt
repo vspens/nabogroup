@@ -1,0 +1,159 @@
+Absolutely — this is an excellent next system to layer into Nabo 360:
+A Compliance Engine that automatically tracks and renews everything critical to state, association, property, and corporate compliance.
+Here’s the full draft of the Compliance Module Scope (written to match the detailed, expansive level you're building toward):
+________________________________________
+🧠 Nabo 360 — Compliance Engine: Full Scope of Work
+________________________________________
+I. Core Compliance Functions
+1. State Corporate Filings (Entity Compliance)
+•	Annual Report & Franchise Tax Filings
+o	AI monitors each state’s deadlines for entity filings (e.g., Texas Franchise Reports, Colorado Periodic Reports, Maryland SDAT filings).
+o	Files annual reports on time to prevent entity forfeiture.
+o	Flags filing fees and tax payments due.
+•	Registered Agent Updates
+o	Upon acquisition or merger, auto-track when:
+	A new Registered Agent needs to be filed.
+	Corporate address changes need to be submitted.
+o	Prepares state-specific forms for filing.
+o	Alerts team to approve updated filings for submission.
+•	Management Company Change Notifications
+o	For states requiring Management Certificate Updates:
+	Texas (Chapter 209 for HOAs, Chapter 82 for Condos).
+	Colorado (DORA HOA Info Office notification).
+	Florida (Condo and HOA DBPR filings).
+o	AI tracks required filing based on portfolio database.
+o	Auto-generates drafts/forms to update property manager info.
+________________________________________
+2. Association-Specific Licenses & Permits
+•	Elevator Permits
+o	Track permit expiration dates.
+o	Auto-schedule required inspections before expiration.
+o	Remind association/vendor when re-inspection is due.
+o	Submit renewal applications (where allowed digitally).
+o	Store digital copies of inspection certificates.
+•	Fire/Life Safety Inspections
+o	Track required annual or semi-annual inspections:
+	Fire extinguishers
+	Sprinkler systems
+	Fire alarms
+	Backflow preventers
+o	Auto-flag when inspections are overdue.
+o	Push re-inspection scheduling tasks to property manager/vendor.
+•	Pool Permits
+o	Monitor public pool permits (required in most states for common areas).
+o	Alert for:
+	Renewal applications.
+	Re-inspection deadlines.
+	Any health code updates (like Virginia’s "Virginia Graeme Baker" drain compliance).
+•	Business/Occupational Licenses
+o	If the association is required to hold a business or occupancy license (common in DC Metro, Florida, some urban cities).
+o	AI auto-tracks renewal dates.
+o	Files renewal applications or alerts team.
+________________________________________
+3. Individual Staff and Management Company Licensing
+•	Manager Licenses
+o	Track Property Manager License renewals (states like:
+	Florida (CAM License)
+	Nevada (CAM License)
+	California (CAM registration if bonded)
+	Colorado (CAM License until 2019 but may come back — monitor status)
+o	Maintain a database of:
+	License Numbers
+	Issue Dates
+	Renewal Dates
+	CEU Requirements
+o	AI alerts managers for:
+	CE class deadlines.
+	Renewal deadlines.
+o	Preps license renewal applications (where allowed).
+•	Company Licenses
+o	Where Management Company must be licensed or registered (such as Arizona, Nevada).
+o	Tracks company-level license renewals.
+o	Auto-renews or prepares filings.
+________________________________________
+4. Memberships and Certifications (CAI, AAMC, Better Business Bureau, etc.)
+•	CAI Certifications
+o	Track company designations:
+	AAMC (Accredited Association Management Company)
+	PCAM, AMS, CMCA employee certifications.
+o	AI alerts when renewals, audits, or CEUs are due.
+o	Stores copies of certifications and application receipts.
+•	State/Local CAI Chapter Memberships
+o	Track chapter dues and renewal cycles.
+o	Alert leadership team when payment is due.
+•	Vendor Certifications
+o	Maintain vendor certifications:
+	General Contractor Licenses
+	Landscaping Pesticide Licenses
+	Pool Operator Certifications
+•	Other Business Certifications
+o	BBB Accreditation renewals.
+o	State small business certifications (SBE, DBE if applicable).
+________________________________________
+5. Acquisition Compliance (Post-Close Requirements)
+•	Management Certificate Updates
+o	Texas (HOAs and Condos) — file Management Certificate Amendment within 30 days of management change.
+o	Colorado — update DORA records with new Management Company.
+•	Registered Agent & Corporate Update
+o	Update corporate records at state level if new owner or manager structure post-closing.
+o	AI-prepares filing drafts for approval.
+•	Insurance Compliance Check
+o	After acquisition:
+	Verify all properties have master policies still active.
+	Alert if any coverage gaps exist during transition.
+•	Bank Signature Updates
+o	Track which Boards require signature card updates post-acquisition.
+o	Push checklist to PMs/accounting teams.
+________________________________________
+II. Alerts & Dashboard Reporting
+Item	Alert Trigger	Response
+Corporate Filing	90/60/30 days before due date	Auto-prepare renewal forms
+Manager License	90/60/30 days before expiration	Renewal alert and CE tracking
+Elevator/Pool Permit	60 days before expiration	Schedule inspection
+Fire Safety Inspection	30 days before due date	Vendor assignment
+Membership Renewal	30 days before due	Invoice generation and renewal tracking
+Management Certificate Filing	10 days post-acquisition	Filing prep and Board signature coordination
+COI (Certificate of Insurance)	Vendor insurance expiring	Push compliance request to vendor
+________________________________________
+III. Stored Documentation
+(Auto-stored and categorized per association and corporate entity)
+•	Entity Certificates of Good Standing.
+•	Management Certificates (TX, CO, FL).
+•	Elevator Inspection Certificates.
+•	Fire Safety Inspection Reports.
+•	Pool Permit Certificates.
+•	Property Manager Licenses.
+•	Association Membership Certificates.
+•	Board Training Certifications (where applicable).
+•	State Regulatory Registrations.
+•	Copies of all completed filings (in association and corporate folders).
+________________________________________
+IV. Future Enhancements
+•	Self-Driving Compliance Filing
+o	Where allowed, AI files renewals automatically through portals (TX, CO, FL systems).
+•	Board Member Certification Tracking
+o	(Ex: Florida requires board members to be certified 90 days after election.)
+•	Municipal Fee Tracking
+o	Some cities (Miami, LA) require registration and fees on properties (rental registration, business licenses).
+•	Legislative Watch
+o	AI monitors state HOA laws changing and pushes alerts to leadership when action needed (e.g., Texas’s 2021 SB 1588 required major management certificate changes).
+________________________________________
+✨ Deliverables Summary for Compliance Engine:
+•	Corporate Entity Management
+•	Association Licensing Compliance
+•	Manager/Company Licensing Compliance
+•	Membership Tracking
+•	Acquisition Compliance Tracker
+•	AI Reminders, Filing Prep, Auto-Renewal Options
+•	Full Document Vault for Compliance Materials
+________________________________________
+🧩 Final Compliance Buckets:
+Area	Subfunctions
+State Filings	Entity renewals, Franchise tax, Agent updates
+License/Permit Management	Elevator, Pool, Fire, Business Licenses
+Manager/Staff Compliance	Property Manager License Renewals, CEUs
+Memberships	CAI, BBB, local organizations
+Acquisition Post-Close Compliance	Management Certificates, Bank Signatures
+Document Storage	All permits, certificates, filings
+________________________________________
+
